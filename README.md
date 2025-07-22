@@ -1,0 +1,1 @@
+This is the first project i have ever made, so i have taken help from generative AIs like ChatGPT and GitHub Copilot. I have understood the concepts, and needed a little bit of help with coding. I am still a beginner, but my love for technology, computer engineering and coding wont subside. It will forever grow.
