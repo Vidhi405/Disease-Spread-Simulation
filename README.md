@@ -20,4 +20,5 @@ This is a simple simulation that shows how a disease may spread from one host to
 ## How to run
 
 '''bash
+
 python3 main.py
