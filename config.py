@@ -1,9 +1,8 @@
-GRID_SIZE = 100             # Grid will be 50x50
-INITIAL_INFECTED = 3        # Start with 3 infected people
-INFECTION_PROB = 0.25       # Chance of infecting a neighbor
-RECOVERY_TIME = 10          # Days until recovery
-MAX_DAYS = 50               # Total simulation time
+GRID_SIZE = 100             
+INITIAL_INFECTED = 3     
+INFECTION_PROB = 0.25     
+RECOVERY_TIME = 10   
+MAX_DAYS = 50         
 
-# Policy toggles
-USE_MASKS = False           # If True, lowers infection probability
-USE_DISTANCING = False      # If True, limits contact to 4 neighbors instead of 8
+USE_MASKS = False         
+USE_DISTANCING = False     
