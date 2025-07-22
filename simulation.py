@@ -10,7 +10,6 @@ def initialize_grid():
     grid = np.zeros((GRID_SIZE, GRID_SIZE), dtype=int)
     infection_days = np.zeros_like(grid)
 
-    # Infect initial people randomly
     for _ in range(INITIAL_INFECTED):
         x = random.randint(0, GRID_SIZE - 1)
         y = random.randint(0, GRID_SIZE - 1)
@@ -43,7 +42,6 @@ def step(grid, infection_days):
                         if random.random() < prob:
                             new_grid[nx, ny] = INFECTED
                             new_infection_days[nx, ny] = 1
-                # Increase infection day count
                 new_infection_days[x, y] += 1
                 if new_infection_days[x, y] >= RECOVERY_TIME:
                     new_grid[x, y] = RECOVERED
