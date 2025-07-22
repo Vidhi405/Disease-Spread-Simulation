@@ -1,0 +1,4 @@
+To run this on your personal computer, you'll need these python libraries: -
+numpy
+matpllotlib
+seaborn
